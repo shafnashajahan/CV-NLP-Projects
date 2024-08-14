@@ -8,7 +8,6 @@ Modular Design: Easily replaceable components for customization and scaling.
 ## Requirements
 Python 3.7+
 
-
 ## Required Python packages:
 vosk
 sentence-transformers
@@ -16,6 +15,14 @@ faiss-cpu
 transformers
 numpy
 
+### Installation
+
+**Clone the Repository**
+
+   ```bash
+   git clone https://github.com/shafnashajahan/CV-NLP-Projects.git
+   cd image-summarization-api
+   
 ## 1. Transcribe Audio
 Use transcribe.py to convert an audio file into text.
 
