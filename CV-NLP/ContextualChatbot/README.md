@@ -10,9 +10,13 @@ Python 3.7+
 
 ## Required Python packages:
 vosk
+
 sentence-transformers
+
 faiss-cpu
+
 transformers
+
 numpy
 
 ### Installation
