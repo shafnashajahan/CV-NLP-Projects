@@ -1,0 +1,10 @@
+vosk==0.3.42
+sentence-transformers==2.2.2
+faiss-cpu==1.7.3
+transformers==4.30.0
+numpy==1.23.5
+pyaudio
+
+#wget https://alphacephei.com/vosk/models/vosk-model-en-us-0.22.zip #your system path
+#unzip vosk-model-en-us-0.22.zip -d /swades.ai/ContextualChatbot/models/
+

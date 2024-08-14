@@ -1,0 +1,39 @@
+
+##Real-Time Depth Estimation with Flask
+Overview
+This project implements a real-time depth estimation system using Flask and the MiDaS deep learning model. It captures video frames from a webcam, processes them to generate depth maps, and streams these depth maps to a web browser. The application demonstrates how to integrate computer vision and deep learning with web technologies to provide real-time visual information.
+
+Key Features
+Real-Time Video Capture: Uses OpenCV to capture video frames from a webcam.
+Depth Estimation: Utilizes the MiDaS model to estimate depth from RGB images.
+Streaming: Streams depth maps to a web browser in real-time using Flask.
+Components
+Flask Application (app.py): Serves the depth maps as a continuous video stream.
+Depth Estimation (depth_estimation.py): Contains functions to preprocess frames and estimate depth using the MiDaS model.
+Installation
+Clone the Repository:
+
+git clone https://github.com/shafnashajahan/your-repo.git
+cd your-repo
+Set Up the Environment:
+
+python -m venv .venv
+source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
+Install Dependencies:
+
+pip install -r requirements.txt
+Usage
+Run the Application:
+
+python app.py
+View the Stream:
+
+Open a web browser and navigate to http://localhost:5000/video_feed to view the real-time depth map stream.
+
+Troubleshooting
+Camera Issues: Ensure the webcam is properly connected and accessible. Adjust the camera index in cv2.VideoCapture(0) if needed.
+Dependency Problems: Verify that all required packages are installed. Recreate the virtual environment and reinstall dependencies if issues arise.
+Acknowledgments
+MiDaS Model: For depth estimation.
+OpenCV: For video capture and image processing.
+Flask: For serving the web application.

@@ -1,0 +1,19 @@
+To build an API that takes image documents as input and returns a summary of their content, you can use Optical Character Recognition (OCR) to extract text from the images and then apply a summarization model to the extracted text. Here’s a step-by-step guide on how to achieve this Python code provided.
+
+Step-by-Step Guide
+Extract Text from Images:
+
+Use Tesseract OCR for extracting text from images.
+Summarize the Extracted Text:
+
+Use a pre-trained summarization model such as Hugging Face's transformers library.
+Create a Flask API:
+
+Set up a Flask application to handle image uploads and return summaries.
+
+
+Setup:
+
+Save app.py and requirements.txt in the same directory.
+Install the dependencies: pip install -r requirements.txt
+Run the Flask app: python app.py
