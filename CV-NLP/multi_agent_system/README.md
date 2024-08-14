@@ -10,7 +10,7 @@ This project demonstrates a simple multi-agent system where different agents (Re
 
 ## How to Run
 
-1. Clone the repository.
+1. Clone the repository. https://github.com/shafnashajahan/CV-NLP-Projects.git
 2. Ensure you have Python installed.
 3. Run the `main.py` script.
 
