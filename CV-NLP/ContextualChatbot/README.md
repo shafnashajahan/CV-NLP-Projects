@@ -22,7 +22,9 @@ numpy
    ```bash
    git clone https://github.com/shafnashajahan/CV-NLP-Projects.git
    cd image-summarization-api
-   
+
+ ```
+
 ## 1. Transcribe Audio
 Use transcribe.py to convert an audio file into text.
 
