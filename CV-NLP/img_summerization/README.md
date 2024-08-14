@@ -25,5 +25,5 @@ This Flask-based API allows users to upload image files (such as photos of text 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/shafnashajahan/image-summarization-api.git
+   git clone https://github.com/shafnashajahan/CV-NLP-Projects.git
    cd image-summarization-api
