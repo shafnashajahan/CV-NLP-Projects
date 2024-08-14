@@ -1,4 +1,5 @@
 Contextual Chatbot Pipeline Documentation
+
 Table of Contents
 Introduction
 System Architecture
@@ -17,8 +18,7 @@ Integration and Workflow
 Customization
 Examples
 Best Practices
-Troubleshooting
-Contributing
+
 
 
 Introduction
@@ -42,7 +42,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/contextual-chatbot-pipeline.git
+git clone https://github.com/shafnashajahan/CV-NLP-Projects.git
 cd contextual-chatbot-pipeline
 Set up a virtual environment:
 
@@ -140,13 +140,3 @@ Best Practices
 Use Quality Audio: Ensure that the audio input is clear and free from background noise for better transcription accuracy.
 Fine-Tune Models: For specific domains, fine-tuning the embedding and language models can significantly improve performance.
 Store Context Efficiently: Regularly clean and update the FAISS index to ensure only relevant context is stored.
-Troubleshooting
-Transcription Errors: If the transcription quality is poor, try using a higher-quality STT model or preprocessing the audio.
-Slow Response Time: Ensure that the FAISS index is not overloaded with unnecessary embeddings, which can slow down retrieval.
-Incoherent Responses: Check the quality of the context retrieval step. If irrelevant contexts are being retrieved, it might affect the response generation.
-Contributing
-Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-License
-This project is licensed under the MIT License.
-
