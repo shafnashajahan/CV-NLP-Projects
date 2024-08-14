@@ -12,7 +12,7 @@ This project is a Flask application that captures video from a camera, processes
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/shafnashajahan/your-repo.git
+    git clone https://github.com/shafnashajahan/CV-NLP-Projects.git
     cd your-repo
     ```
 
