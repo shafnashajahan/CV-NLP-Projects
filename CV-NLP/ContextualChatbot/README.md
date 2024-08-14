@@ -21,7 +21,7 @@ numpy
 
    ```bash
    git clone https://github.com/shafnashajahan/CV-NLP-Projects.git
-   cd image-summarization-api
+   cd ContextualChatbot
 
  ```
 
